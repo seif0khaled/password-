@@ -42,29 +42,3 @@ inputpassword.addEventListener('input', function () {
 
 }
     //console.log(inputpassword.);
-)
-let cart = ["milk","chips","coffe","chocolate"]
-
-console.log(cart)
-
-for(let i=0; i< cart.length; i++){
-    console.log(cart[i]);
-}
-
-// console.log(inputpassword);
-
-function example(firstName, lastName){
-    let sayhi = "hello" + firstName + lastName;
-    console.log(sayhi);
-}
-
-example("pierre", "Emad");
-
-example("mohamed","Ahmed")
-
-
-function sayhello(){
-    console.log("hello");
-}
-
-document.querySelector("button").addEventListener("click",sayhello);
